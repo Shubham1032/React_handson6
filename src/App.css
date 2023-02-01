@@ -1,0 +1,131 @@
+
+nav{
+  background-color: blue;
+  color: white;
+}
+nav span{
+  color: white;
+  margin: 145px;
+  font-size: 2em;
+  background-image: l;
+}
+.Maindiv{
+  height: 100vh;
+  background-image: linear-gradient(
+    rgb(104, 202, 240),pink,white
+  );
+}
+#Sttableheading{
+font-size: xx-large;
+font-weight: bolder;
+margin: 25px;
+}
+#btnforadd{
+  float: right;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+margin-top: 10px;
+margin-right: 10px;
+}
+table{
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 25px;
+  text-align: center;
+}
+th{
+  font-size: larger;
+
+}
+td{
+  font-size: large;
+}
+input{
+  margin: 100px;
+  margin-left: 220px;
+  height: 40px;
+  width: 220px;
+  background: transparent;
+  border: 1px solid gray;
+
+}
+.lable{
+  position: absolute;
+  
+  border-radius: 40px;
+  padding: 5px;
+  background: rgb(157, 214, 236);
+  color: gray;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.lableforname{
+  position: absolute;
+  left: 230px;
+  top: 128px;
+  border-radius: 40px;
+  padding: 5px;
+  background: rgb(157, 214, 236);
+  color: gray;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.lableforage{
+top: 128px;
+left: 780px;
+}
+.lableforcourse{
+  top: 370px;
+  left: 230px;
+  background: pink;
+}
+.lableforbatch{
+  top: 370px;
+  left: 780px;
+  background: pink;
+
+  }
+  .btnforUpdateEdit{
+    position: absolute;
+    right: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+  
+  }
+  .btnforcancelEdit{
+    position: absolute;
+    right: 280px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+  }
+  .btnforUpdateEdit:hover{
+    transform: translateY(
+      -5px
+      
+    );
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid gray;
+    background-color: rgb(251, 166, 180);
+  }
+  .btnforcancelEdit:hover{
+    transform: translateY(
+      -5px
+      
+    );
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid gray;
+    background-color: rgb(205, 204, 204);
+  }
